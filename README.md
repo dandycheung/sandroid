@@ -1,4 +1,10 @@
-sendroid
+Sandroid
 ========
 
 Sandbox enhanced security for processed access to android system.
+
+Goal for implement in pharse#1
+==============================
+
+* Read process from android system.
+* Add syscall for monitoring application try to hook syscall. 
