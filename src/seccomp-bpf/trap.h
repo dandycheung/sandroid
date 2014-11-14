@@ -11,7 +11,7 @@
 #include <map>
 
 #include "base/macros.h"
-#include "sandbox/linux/bpf_dsl/trap_registry.h"
+#include "bpf_dsl/trap_registry.h"
 #include "sandbox/sandbox_export.h"
 
 namespace sandbox {

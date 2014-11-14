@@ -46,5 +46,8 @@ AC_CONFIG_FILES([Makefile])
 AC_CONFIG_FILES([src/sandroid/Makefile])
 AC_CONFIG_FILES([src/seccomp-bpf/Makefile])
 AC_CONFIG_FILES([src/seccomp-bpf-helpers/Makefile])
+AC_CONFIG_FILES([src/services/Makefile])
+AC_CONFIG_FILES([src/bpf_dsl/Makefile])
+
 #output file
 AC_OUTPUT

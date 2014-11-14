@@ -5,7 +5,7 @@
 #ifndef SANDBOX_LINUX_SECCOMP_BPF_ERRORCODE_H__
 #define SANDBOX_LINUX_SECCOMP_BPF_ERRORCODE_H__
 
-#include "sandbox/linux/seccomp-bpf/trap.h"
+#include "seccomp-bpf/trap.h"
 #include "sandbox/sandbox_export.h"
 
 namespace sandbox {

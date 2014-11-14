@@ -7,7 +7,7 @@
 
 #include <vector>
 
-#include "sandbox/linux/seccomp-bpf/instruction.h"
+#include "seccomp-bpf/instruction.h"
 
 namespace sandbox {
 

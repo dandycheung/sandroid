@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "sandbox/linux/tests/sandbox_test_runner_function_pointer.h"
+#include "tests/sandbox_test_runner_function_pointer.h"
 
 #include "base/logging.h"
 #include "build/build_config.h"

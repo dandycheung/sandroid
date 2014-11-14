@@ -4,7 +4,7 @@
 
 // http://code.google.com/p/chromium/wiki/LinuxSUIDSandbox
 
-#include "sandbox/linux/suid/common/sandbox.h"
+#include "suid/common/sandbox.h"
 
 #define _GNU_SOURCE
 #include <asm/unistd.h>
@@ -29,8 +29,8 @@
 #include <sys/wait.h>
 #include <unistd.h>
 
-#include "sandbox/linux/suid/common/suid_unsafe_environment_variables.h"
-#include "sandbox/linux/suid/process_util.h"
+#include "suid/common/suid_unsafe_environment_variables.h"
+#include "suid/process_util.h"
 
 #if !defined(CLONE_NEWPID)
 #define CLONE_NEWPID 0x20000000

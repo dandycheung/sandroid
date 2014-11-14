@@ -18,7 +18,7 @@
 #include "base/posix/eintr_wrapper.h"
 #include "base/posix/unix_domain_socket_linux.h"
 #include "base/process/process_handle.h"
-#include "sandbox/linux/tests/unit_tests.h"
+#include "tests/unit_tests.h"
 
 // Additional tests for base's UnixDomainSocket to make sure it behaves
 // correctly in the presence of sandboxing functionality (e.g., receiving

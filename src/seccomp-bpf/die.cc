@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "sandbox/linux/seccomp-bpf/die.h"
+#include "seccomp-bpf/die.h"
 
 #include <errno.h>
 #include <signal.h>
@@ -14,8 +14,8 @@
 #include <string>
 
 #include "base/logging.h"
-#include "base/posix/eintr_wrapper.h"
-#include "sandbox/linux/seccomp-bpf/syscall.h"
+#include "base/eintr_wrapper.h"
+#include "seccomp-bpf/syscall.h"
 
 namespace sandbox {
 

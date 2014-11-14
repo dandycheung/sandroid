@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "sandbox/linux/services/scoped_process.h"
+#include "services/scoped_process.h"
 
 #include <fcntl.h>
 #include <signal.h>
@@ -17,7 +17,7 @@
 #include "base/logging.h"
 #include "base/posix/eintr_wrapper.h"
 #include "build/build_config.h"
-#include "sandbox/linux/services/thread_helpers.h"
+#include "services/thread_helpers.h"
 
 namespace sandbox {
 

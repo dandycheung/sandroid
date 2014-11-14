@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "sandbox/linux/seccomp-bpf/errorcode.h"
+#include "seccomp-bpf/errorcode.h"
 
-#include "sandbox/linux/seccomp-bpf/die.h"
-#include "sandbox/linux/seccomp-bpf/linux_seccomp.h"
+#include "seccomp-bpf/die.h"
+#include "seccomp-bpf/linux_seccomp.h"
 
 namespace sandbox {
 

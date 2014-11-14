@@ -10,7 +10,7 @@
 
 #include "base/logging.h"
 #include "base/posix/eintr_wrapper.h"
-#include "sandbox/linux/tests/unit_tests.h"
+#include "tests/unit_tests.h"
 
 namespace sandbox {
 

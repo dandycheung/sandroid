@@ -2,19 +2,19 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "sandbox/linux/seccomp-bpf/verifier.h"
+#include "seccomp-bpf/verifier.h"
 
 #include <string.h>
 
 #include <limits>
 
-#include "sandbox/linux/bpf_dsl/bpf_dsl.h"
-#include "sandbox/linux/bpf_dsl/bpf_dsl_impl.h"
-#include "sandbox/linux/bpf_dsl/policy_compiler.h"
-#include "sandbox/linux/seccomp-bpf/errorcode.h"
-#include "sandbox/linux/seccomp-bpf/linux_seccomp.h"
-#include "sandbox/linux/seccomp-bpf/sandbox_bpf.h"
-#include "sandbox/linux/seccomp-bpf/syscall_iterator.h"
+#include "bpf_dsl/bpf_dsl.h"
+#include "bpf_dsl/bpf_dsl_impl.h"
+#include "bpf_dsl/policy_compiler.h"
+#include "seccomp-bpf/errorcode.h"
+#include "seccomp-bpf/linux_seccomp.h"
+#include "seccomp-bpf/sandbox_bpf.h"
+#include "seccomp-bpf/syscall_iterator.h"
 
 namespace sandbox {
 

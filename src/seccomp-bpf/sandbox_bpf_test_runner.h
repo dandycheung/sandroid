@@ -7,8 +7,8 @@
 
 #include "base/macros.h"
 #include "base/memory/scoped_ptr.h"
-#include "sandbox/linux/bpf_dsl/bpf_dsl.h"
-#include "sandbox/linux/tests/sandbox_test_runner.h"
+#include "bpf_dsl/bpf_dsl.h"
+#include "tests/sandbox_test_runner.h"
 
 namespace sandbox {
 

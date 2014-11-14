@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "sandbox/linux/seccomp-bpf/sandbox_bpf.h"
+#include "seccomp-bpf/sandbox_bpf.h"
 
 // Some headers on Android are missing cdefs: crbug.com/172337.
 // (We can't use OS_ANDROID here since build_config.h is not included).
@@ -27,18 +27,18 @@
 #include "base/logging.h"
 #include "base/macros.h"
 #include "base/memory/scoped_ptr.h"
-#include "base/posix/eintr_wrapper.h"
-#include "sandbox/linux/bpf_dsl/bpf_dsl.h"
-#include "sandbox/linux/bpf_dsl/policy_compiler.h"
-#include "sandbox/linux/seccomp-bpf/codegen.h"
-#include "sandbox/linux/seccomp-bpf/die.h"
-#include "sandbox/linux/seccomp-bpf/errorcode.h"
-#include "sandbox/linux/seccomp-bpf/linux_seccomp.h"
-#include "sandbox/linux/seccomp-bpf/syscall.h"
-#include "sandbox/linux/seccomp-bpf/syscall_iterator.h"
-#include "sandbox/linux/seccomp-bpf/trap.h"
-#include "sandbox/linux/seccomp-bpf/verifier.h"
-#include "sandbox/linux/services/linux_syscalls.h"
+#include "base/eintr_wrapper.h" // "base/posix/eintr_wrapper.h"
+#include "bpf_dsl/bpf_dsl.h"
+#include "bpf_dsl/policy_compiler.h"
+#include "seccomp-bpf/codegen.h"
+#include "seccomp-bpf/die.h"
+#include "seccomp-bpf/errorcode.h"
+#include "seccomp-bpf/linux_seccomp.h"
+#include "seccomp-bpf/syscall.h"
+#include "seccomp-bpf/syscall_iterator.h"
+#include "seccomp-bpf/trap.h"
+#include "seccomp-bpf/verifier.h"
+#include "services/linux_syscalls.h"
 
 using sandbox::bpf_dsl::Allow;
 using sandbox::bpf_dsl::Error;

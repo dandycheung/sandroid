@@ -6,7 +6,7 @@
 #define SANDBOX_LINUX_SECCOMP_BPF_BPF_TESTER_COMPATIBILITY_DELEGATE_H_
 
 #include "base/memory/scoped_ptr.h"
-#include "sandbox/linux/seccomp-bpf/sandbox_bpf_test_runner.h"
+#include "seccomp-bpf/sandbox_bpf_test_runner.h"
 
 namespace sandbox {
 

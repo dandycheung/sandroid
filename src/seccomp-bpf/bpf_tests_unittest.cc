@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "sandbox/linux/seccomp-bpf/bpf_tests.h"
+#include "seccomp-bpf/bpf_tests.h"
 
 #include <errno.h>
 #include <sys/ptrace.h>
@@ -13,10 +13,10 @@
 #include "base/logging.h"
 #include "base/memory/scoped_ptr.h"
 #include "build/build_config.h"
-#include "sandbox/linux/bpf_dsl/bpf_dsl.h"
-#include "sandbox/linux/seccomp-bpf/sandbox_bpf.h"
-#include "sandbox/linux/services/linux_syscalls.h"
-#include "sandbox/linux/tests/unit_tests.h"
+#include "bpf_dsl/bpf_dsl.h"
+#include "seccomp-bpf/sandbox_bpf.h"
+#include "services/linux_syscalls.h"
+#include "tests/unit_tests.h"
 #include "testing/gtest/include/gtest/gtest.h"
 
 using sandbox::bpf_dsl::Allow;
