@@ -3,7 +3,7 @@ Sandroid
 
 Sandbox enhanced security for processed access to android system.
 
-Goal for implement in pharse#1
+Goal for implement in phase#1
 ==============================
 
 * Read process from android system.
