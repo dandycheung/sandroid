@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "sandbox/linux/seccomp-bpf/trap.h"
+#include "seccomp-bpf/trap.h"
 
 #include <errno.h>
 #include <signal.h>
@@ -14,13 +14,13 @@
 
 #include "base/logging.h"
 #include "build/build_config.h"
-#include "sandbox/linux/seccomp-bpf/die.h"
-#include "sandbox/linux/seccomp-bpf/linux_seccomp.h"
-#include "sandbox/linux/seccomp-bpf/syscall.h"
+#include "seccomp-bpf/die.h"
+#include "seccomp-bpf/linux_seccomp.h"
+#include "seccomp-bpf/syscall.h"
 
 // Android's signal.h doesn't define ucontext etc.
 #if defined(OS_ANDROID)
-#include "sandbox/linux/services/android_ucontext.h"
+#include "services/android_ucontext.h"
 #endif
 
 namespace {

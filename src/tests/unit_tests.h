@@ -7,7 +7,7 @@
 
 #include "base/basictypes.h"
 #include "build/build_config.h"
-#include "sandbox/linux/tests/sandbox_test_runner_function_pointer.h"
+#include "tests/sandbox_test_runner_function_pointer.h"
 #include "testing/gtest/include/gtest/gtest.h"
 
 namespace sandbox {

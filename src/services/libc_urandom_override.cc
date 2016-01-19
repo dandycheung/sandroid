@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "sandbox/linux/services/libc_urandom_override.h"
+#include "services/libc_urandom_override.h"
 
 #include <dlfcn.h>
 #include <pthread.h>

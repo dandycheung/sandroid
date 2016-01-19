@@ -26,3 +26,47 @@
 *.exe
 *.out
 *.app
+
+configure_ac_cmd.sh
+formatt_code.sh
+autom4te.cache/
+autom4te.cache/*
+aclocal.m4
+config.h
+config.h.in
+config.log
+config.status
+configure
+depcomp
+install-sh
+Makefile
+Makefile.in
+missing
+stamp-h1
+
+.*.*.swp
+.*.*.swo
+.*.cpp.swo
+.*.hpp.swo
+.*.h.swo
+.*.cpp.swo
+
+.deps/
+.deps/*
+
+.depcomp.swp
+
+# log
+*.log
+*.trs
+*.INFO
+
+.dirstamp/
+.dirstamp/*
+
+#object test not included
+*_test
+
+#not included compile protobuf file.
+experimental/message/compile_msg_scan.sh
+

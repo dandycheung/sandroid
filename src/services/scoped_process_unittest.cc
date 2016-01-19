@@ -18,8 +18,8 @@
 #include "base/posix/eintr_wrapper.h"
 #include "base/threading/platform_thread.h"
 #include "base/time/time.h"
-#include "sandbox/linux/services/scoped_process.h"
-#include "sandbox/linux/tests/unit_tests.h"
+#include "services/scoped_process.h"
+#include "tests/unit_tests.h"
 #include "testing/gtest/include/gtest/gtest.h"
 
 namespace sandbox {

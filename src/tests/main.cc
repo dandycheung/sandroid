@@ -5,8 +5,8 @@
 #include "base/at_exit.h"
 #include "base/logging.h"
 #include "base/test/test_suite.h"
-#include "sandbox/linux/tests/test_utils.h"
-#include "sandbox/linux/tests/unit_tests.h"
+#include "tests/test_utils.h"
+#include "tests/unit_tests.h"
 #include "testing/gtest/include/gtest/gtest.h"
 
 namespace sandbox {

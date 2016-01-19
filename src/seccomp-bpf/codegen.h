@@ -10,7 +10,7 @@
 #include <map>
 #include <vector>
 
-#include "sandbox/sandbox_export.h"
+#include "../sandbox/sandbox_export.h"
 
 struct sock_filter;
 

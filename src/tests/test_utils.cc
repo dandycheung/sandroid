@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "sandbox/linux/tests/test_utils.h"
+#include "tests/test_utils.h"
 
 #include <errno.h>
 #include <sys/stat.h>

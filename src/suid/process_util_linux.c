@@ -10,7 +10,7 @@
 // in some versions of glibc).
 #define _GNU_SOURCE
 
-#include "sandbox/linux/suid/process_util.h"
+#include "suid/process_util.h"
 
 #include <fcntl.h>
 #include <inttypes.h>

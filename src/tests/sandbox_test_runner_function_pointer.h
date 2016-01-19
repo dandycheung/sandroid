@@ -6,7 +6,7 @@
 #define SANDBOX_LINUX_TESTS_SANDBOX_TEST_RUNNER_FUNCTION_POINTER_H_
 
 #include "base/basictypes.h"
-#include "sandbox/linux/tests/sandbox_test_runner.h"
+#include "tests/sandbox_test_runner.h"
 
 namespace sandbox {
 

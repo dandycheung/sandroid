@@ -16,7 +16,7 @@
 #include "base/posix/eintr_wrapper.h"
 #include "base/third_party/valgrind/valgrind.h"
 #include "build/build_config.h"
-#include "sandbox/linux/tests/unit_tests.h"
+#include "tests/unit_tests.h"
 
 namespace {
 std::string TestFailedMessage(const std::string& msg) {

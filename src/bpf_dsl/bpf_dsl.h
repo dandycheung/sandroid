@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#ifndef SANDBOX_LINUX_BPF_DSL_BPF_DSL_H_
-#define SANDBOX_LINUX_BPF_DSL_BPF_DSL_H_
+#ifndef BPF_DSL_BPF_DSL_H_
+#define BPF_DSL_BPF_DSL_H_
 
 #include <stdint.h>
 
@@ -12,8 +12,9 @@
 
 #include "base/macros.h"
 #include "base/memory/ref_counted.h"
-#include "sandbox/linux/bpf_dsl/cons.h"
-#include "sandbox/linux/bpf_dsl/trap_registry.h"
+#include "bpf_dsl/cons.h"
+#include "bpf_dsl/trap_registry.h"
+#include "bpf_dsl/bpf_dsl_impl.h"
 #include "sandbox/sandbox_export.h"
 
 // The sandbox::bpf_dsl namespace provides a domain-specific language

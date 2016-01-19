@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "sandbox/linux/tests/sandbox_test_runner.h"
+#include "tests/sandbox_test_runner.h"
 
 namespace sandbox {
 

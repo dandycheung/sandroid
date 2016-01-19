@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "sandbox/linux/seccomp-bpf/codegen.h"
+#include "seccomp-bpf/codegen.h"
 
 #include <errno.h>
 #include <linux/filter.h>
@@ -11,10 +11,10 @@
 #include <string>
 #include <vector>
 
-#include "sandbox/linux/seccomp-bpf/basicblock.h"
-#include "sandbox/linux/seccomp-bpf/errorcode.h"
-#include "sandbox/linux/seccomp-bpf/instruction.h"
-#include "sandbox/linux/seccomp-bpf/sandbox_bpf.h"
+#include "seccomp-bpf/basicblock.h"
+#include "seccomp-bpf/errorcode.h"
+#include "seccomp-bpf/instruction.h"
+#include "seccomp-bpf/sandbox_bpf.h"
 #include "sandbox/linux/tests/unit_tests.h"
 
 namespace sandbox {

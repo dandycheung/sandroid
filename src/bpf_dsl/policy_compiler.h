@@ -13,8 +13,10 @@
 
 #include "base/macros.h"
 #include "base/memory/scoped_ptr.h"
-#include "sandbox/linux/seccomp-bpf/codegen.h"
-#include "sandbox/linux/seccomp-bpf/errorcode.h"
+//#include "sandbox/linux/seccomp-bpf/codegen.h"
+//#include "sandbox/linux/seccomp-bpf/errorcode.h"
+#include "seccomp-bpf/codegen.h"
+#include "seccomp-bpf/errorcode.h"
 #include "sandbox/sandbox_export.h"
 
 namespace sandbox {

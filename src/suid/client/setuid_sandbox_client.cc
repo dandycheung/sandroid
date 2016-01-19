@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "sandbox/linux/suid/client/setuid_sandbox_client.h"
+#include "suid/client/setuid_sandbox_client.h"
 
 #include <fcntl.h>
 #include <stdlib.h>
@@ -25,9 +25,9 @@
 #include "base/process/launch.h"
 #include "base/process/process_metrics.h"
 #include "base/strings/string_number_conversions.h"
-#include "sandbox/linux/services/init_process_reaper.h"
-#include "sandbox/linux/suid/common/sandbox.h"
-#include "sandbox/linux/suid/common/suid_unsafe_environment_variables.h"
+#include "services/init_process_reaper.h"
+#include "suid/common/sandbox.h"
+#include "suid/common/suid_unsafe_environment_variables.h"
 
 namespace {
 

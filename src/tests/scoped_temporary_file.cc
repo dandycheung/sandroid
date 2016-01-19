@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "sandbox/linux/tests/scoped_temporary_file.h"
+#include "tests/scoped_temporary_file.h"
 
 #include <stdlib.h>
 #include <unistd.h>

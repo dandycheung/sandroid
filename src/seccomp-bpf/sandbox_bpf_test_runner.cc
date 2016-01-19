@@ -2,16 +2,16 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "sandbox/linux/seccomp-bpf/sandbox_bpf_test_runner.h"
+#include "seccomp-bpf/sandbox_bpf_test_runner.h"
 
 #include <fcntl.h>
 #include <linux/filter.h>
 
 #include "base/logging.h"
 #include "base/memory/scoped_ptr.h"
-#include "sandbox/linux/bpf_dsl/bpf_dsl.h"
-#include "sandbox/linux/seccomp-bpf/die.h"
-#include "sandbox/linux/seccomp-bpf/sandbox_bpf.h"
+#include "bpf_dsl/bpf_dsl.h"
+#include "seccomp-bpf/die.h"
+#include "seccomp-bpf/sandbox_bpf.h"
 #include "sandbox/linux/tests/unit_tests.h"
 
 namespace sandbox {

@@ -24,9 +24,9 @@
 #include "base/memory/scoped_ptr.h"
 #include "base/posix/eintr_wrapper.h"
 #include "base/posix/unix_domain_socket_linux.h"
-#include "sandbox/linux/tests/scoped_temporary_file.h"
-#include "sandbox/linux/tests/test_utils.h"
-#include "sandbox/linux/tests/unit_tests.h"
+#include "tests/scoped_temporary_file.h"
+#include "tests/test_utils.h"
+#include "tests/unit_tests.h"
 #include "testing/gtest/include/gtest/gtest.h"
 
 namespace sandbox {
