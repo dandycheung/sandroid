@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "sandbox/linux/bpf_dsl/bpf_dsl.h"
+#include "bpf_dsl/bpf_dsl.h"
 
 #include <errno.h>
 
@@ -10,9 +10,9 @@
 
 #include "base/logging.h"
 #include "base/memory/ref_counted.h"
-#include "sandbox/linux/bpf_dsl/bpf_dsl_impl.h"
-#include "sandbox/linux/bpf_dsl/policy_compiler.h"
-#include "sandbox/linux/seccomp-bpf/errorcode.h"
+#include "bpf_dsl/bpf_dsl_impl.h"
+#include "bpf_dsl/policy_compiler.h"
+#include "seccomp-bpf/errorcode.h"
 
 namespace sandbox {
 namespace bpf_dsl {
