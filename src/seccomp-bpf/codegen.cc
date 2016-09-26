@@ -10,17 +10,17 @@
 #include <set>
 
 #include "base/logging.h"
-//#include "seccomp-bpf/basicblock.h"
-//#include "seccomp-bpf/die.h"
-//#include "seccomp-bpf/instruction.h"
-//#include "seccomp-bpf/linux_seccomp.h"
-//#include "seccomp-bpf/trap.h"
+#include "seccomp-bpf/basicblock.h"
+#include "seccomp-bpf/die.h"
+#include "seccomp-bpf/instruction.h"
+#include "seccomp-bpf/linux_seccomp.h"
+#include "seccomp-bpf/trap.h"
 
-#include "basicblock.h"
-#include "die.h"
-#include "instruction.h"
-#include "linux_seccomp.h"
-#include "trap.h"
+//#include "basicblock.h"
+//#include "die.h"
+//#include "instruction.h"
+//#include "linux_seccomp.h"
+//#include "trap.h"
 
 
 

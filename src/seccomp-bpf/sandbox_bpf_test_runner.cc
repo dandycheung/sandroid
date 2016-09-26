@@ -12,7 +12,7 @@
 #include "bpf_dsl/bpf_dsl.h"
 #include "seccomp-bpf/die.h"
 #include "seccomp-bpf/sandbox_bpf.h"
-#include "sandbox/linux/tests/unit_tests.h"
+#include "tests/unit_tests.h"
 
 namespace sandbox {
 
