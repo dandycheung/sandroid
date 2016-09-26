@@ -2,7 +2,6 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "sandbox/linux/services/broker_process.h"
 
 #include <fcntl.h>
 #include <signal.h>
@@ -17,6 +16,9 @@
 #include <string>
 #include <vector>
 
+#include "services/broker_process.h"
+
+
 #include "base/basictypes.h"
 #include "base/callback.h"
 #include "base/compiler_specific.h"
@@ -29,7 +31,7 @@
 #include "base/process/process_metrics.h"
 #include "base/third_party/valgrind/valgrind.h"
 #include "build/build_config.h"
-#include "sandbox/linux/services/linux_syscalls.h"
+#include "services/linux_syscalls.h"
 
 #if defined(OS_ANDROID) && !defined(MSG_CMSG_CLOEXEC)
 #define MSG_CMSG_CLOEXEC 0x40000000

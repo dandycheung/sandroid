@@ -5,10 +5,11 @@
 #ifndef SANDBOX_LINUX_TESTS_UNIT_TESTS_H__
 #define SANDBOX_LINUX_TESTS_UNIT_TESTS_H__
 
+#include <gtest/gtest.h>
+
 #include "base/basictypes.h"
 #include "build/build_config.h"
 #include "tests/sandbox_test_runner_function_pointer.h"
-#include "testing/gtest/include/gtest/gtest.h"
 
 namespace sandbox {
 

@@ -1,0 +1,3 @@
+/home/chatsiri/sda1/workspacecpp/treadstoneproject/tracethreat-ref/src/services/build/CMakeFiles/broker_process-test.dir
+/home/chatsiri/sda1/workspacecpp/treadstoneproject/tracethreat-ref/src/services/build/CMakeFiles/services-seccomp.dir
+/home/chatsiri/sda1/workspacecpp/treadstoneproject/tracethreat-ref/src/services/build/CMakeFiles/unix_domain_socket-test.dir

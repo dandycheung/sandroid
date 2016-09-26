@@ -80,7 +80,9 @@ Trap::Trap()
       trap_array_capacity_(0),
       has_unsafe_traps_(false) {
   // Set new SIGSYS handler
-  struct sigaction sa = {};
+  struct sigaction sa{};
+  //sa  = {};
+  //memset(&sa, 0, sizeof(sigaction));
   sa.sa_sigaction = SigSysAction;
   sa.sa_flags = SA_SIGINFO | SA_NODEFER;
   struct sigaction old_sa;

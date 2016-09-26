@@ -1,6 +1,7 @@
 // Copyright 2014 The Chromium Authors. All rights reserved.
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
+#include <gtest/gtest.h>
 
 #include "seccomp-bpf/bpf_tests.h"
 
@@ -17,7 +18,6 @@
 #include "seccomp-bpf/sandbox_bpf.h"
 #include "services/linux_syscalls.h"
 #include "tests/unit_tests.h"
-#include "testing/gtest/include/gtest/gtest.h"
 
 using sandbox::bpf_dsl::Allow;
 using sandbox::bpf_dsl::Error;

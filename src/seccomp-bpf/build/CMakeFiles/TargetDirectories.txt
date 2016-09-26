@@ -1,1 +1,2 @@
-/home/chatsiri/sda1/workspacecpp/treadstoneproject/sandroid/src/seccomp-bpf/build/CMakeFiles/seccomp-bpf.dir
+/home/rchatsiri/sdc1/workspacecpp/treadstoneproject/tracethreat-ref/src/seccomp-bpf/build/CMakeFiles/seccomp-bpf-test.dir
+/home/rchatsiri/sdc1/workspacecpp/treadstoneproject/tracethreat-ref/src/seccomp-bpf/build/CMakeFiles/seccomp-bpf.dir

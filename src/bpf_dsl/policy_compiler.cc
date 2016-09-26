@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "sandbox/linux/bpf_dsl/policy_compiler.h"
+#include "bpf_dsl/policy_compiler.h"
 
 #include <errno.h>
 #include <linux/filter.h>
@@ -12,15 +12,15 @@
 
 #include "base/logging.h"
 #include "base/macros.h"
-#include "sandbox/linux/bpf_dsl/bpf_dsl.h"
-#include "sandbox/linux/bpf_dsl/bpf_dsl_impl.h"
-#include "sandbox/linux/seccomp-bpf/codegen.h"
-#include "sandbox/linux/seccomp-bpf/die.h"
-#include "sandbox/linux/seccomp-bpf/errorcode.h"
-#include "sandbox/linux/seccomp-bpf/instruction.h"
-#include "sandbox/linux/seccomp-bpf/linux_seccomp.h"
-#include "sandbox/linux/seccomp-bpf/syscall.h"
-#include "sandbox/linux/seccomp-bpf/syscall_iterator.h"
+#include "bpf_dsl/bpf_dsl.h"
+#include "bpf_dsl/bpf_dsl_impl.h"
+#include "seccomp-bpf/codegen.h"
+#include "seccomp-bpf/die.h"
+#include "seccomp-bpf/errorcode.h"
+#include "seccomp-bpf/instruction.h"
+#include "seccomp-bpf/linux_seccomp.h"
+#include "seccomp-bpf/syscall.h"
+#include "seccomp-bpf/syscall_iterator.h"
 
 namespace sandbox {
 namespace bpf_dsl {
